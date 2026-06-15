@@ -14,7 +14,7 @@ const userLocationSlice=createSlice({
         },
         setLocationSuccess:(state,action)=>{
             state.loading=false,
-            state.details=action.payload,
+            state.locationDetails=action.payload,
             state.error=null
         },
         setError:(state,action)=>{
